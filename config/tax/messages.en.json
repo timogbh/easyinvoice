@@ -1,0 +1,8 @@
+{
+  "disclaimer": "Note: Templates provided without warranty; no tax advice.",
+  "kur_note": "VAT not shown due to small business exemption.",
+  "rc_note": "Reverse charge: recipient is liable for VAT.",
+  "uid_hint": "Please provide correct VAT ID. Reverse charge may apply for intra-community services.",
+  "domestic_standard": "Domestic transaction: country-specific VAT rates apply.",
+  "export_zero": "Export delivery: tax-exempt, keep supporting documents."
+}

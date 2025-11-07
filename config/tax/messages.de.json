@@ -1,0 +1,8 @@
+{
+  "disclaimer": "Hinweis: Vorlagen ohne Gewähr; keine steuerliche Beratung.",
+  "kur_note": "Umsatzsteuer wird aufgrund der Kleinunternehmerregelung nicht ausgewiesen.",
+  "rc_note": "Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge).",
+  "uid_hint": "Bitte USt-IdNr./UID korrekt angeben. Bei innergemeinschaftlichen Leistungen kann Reverse Charge gelten.",
+  "domestic_standard": "Inlandsvorgang: landesspezifische Umsatzsteuersätze.",
+  "export_zero": "Ausfuhrlieferung: steuerbefreit, Nachweise aufbewahren."
+}

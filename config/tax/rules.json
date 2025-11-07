@@ -1,0 +1,47 @@
+{
+  "AT": {
+    "currency": "EUR",
+    "rates": {
+      "standard": 20,
+      "reduced": [13, 10]
+    },
+    "smallBusiness": {
+      "noteKey": "kur_note"
+    },
+    "reverseCharge": {
+      "enabled": true,
+      "noteKey": "rc_note"
+    }
+  },
+  "DE": {
+    "currency": "EUR",
+    "rates": {
+      "standard": 19,
+      "reduced": [7]
+    },
+    "smallBusiness": {
+      "noteKey": "kur_note"
+    },
+    "reverseCharge": {
+      "enabled": true,
+      "noteKey": "rc_note"
+    }
+  },
+  "CH": {
+    "currency": "CHF",
+    "rates": {
+      "standard": 8.1,
+      "reduced": [2.6, 3.8]
+    },
+    "reverseCharge": {
+      "enabled": false
+    }
+  },
+  "EU": {
+    "currency": "EUR",
+    "reverseCharge": {
+      "enabled": true,
+      "noteKey": "rc_note"
+    }
+  }
+}

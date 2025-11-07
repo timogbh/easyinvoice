@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "EasyInvoice AI",
+    "slug": "easyinvoice-ai-ok18mns",
+    "version": "1.0.0",
+    "description": "EasyInvoice AI erstellt rechtssichere Rechnungen und Angebote mit automatischer Steuerlogik, PDF-Export und smarter KI-Unterstützung.",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "rork-app",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.rork.easyinvoice-ai-ok18mns",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access your photos to upload company logos",
+        "NSCameraUsageDescription": "Allow $(PRODUCT_NAME) to access your camera to capture company logos",
+        "NSMicrophoneUsageDescription": "Allow $(PRODUCT_NAME) to access your microphone",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "app.rork.easyinvoice_ai_ok18mns",
+      "versionCode": 1,
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET",
+        "CAMERA"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://rork.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "supportEmail": "support@easyinvoice.app",
+      "privacyPolicyUrl": "https://easyinvoice.app/privacy",
+      "termsUrl": "https://easyinvoice.app/terms",
+      "releaseNotes": "Erste Version mit Rechnungs- und Angebotseditor, PDF-Export, KI-Vorschlägen und Premium-Funktionen."
+    }
+  }
+}
