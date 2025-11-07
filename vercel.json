@@ -1,6 +1,6 @@
 {
-  "framework": "other",
-  "installCommand": "npm install",
   "buildCommand": "",
-  "outputDirectory": "."
+  "installCommand": "npm install",
+  "outputDirectory": ".",
+  "ignoreCommand": "echo 'skip build cache'"
 }
